@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: #f5faff;
+    color: #2e004f;
+}
+
+.topo {
+    text-align: center;
+    padding: 20px 0px;
+    display: inline;
+}
+
+.topo .logo {
+    width: 25px;
+}
+
+.topo .slogan {
+    font-size: 12px;
+    color: #6b6b6b;
+}
+
+.banner {
+    background: url('img/banner-topo.jpg') no-repeat center/cover;
+    height: 350px;
+    display: block;
+    text-align: center;
+    padding: 80px 20px 20px 20px;
+    color: #2e004f;
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.2);
+}
+
+.caixa-banner {
+  background: rgba(0, 0, 0, 0.2); /* fundo transparente */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  text-shadow: 2px 5px 3px rgba(0,0,0,0.7);
+  max-width: 500px;
+  margin: auto;
+}
+
+.caixa-banner h1 {
+  font-size: 32px;
+  color: #2e004f;
+  margin-bottom: 20px;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2e004f;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.servicos {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.servicos ul {
+    text-align: left;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.servicos li {
+    margin-bottom: 12px;
+}
+
+.galeria {
+    display: block;
+    text-align: center;
+}
+
+.galeria img {
+    width: 120px;
+    margin: 5px;
+}
+
+.paixao {
+    background: #2e004f;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.icones img {
+    width: 24px;
+    margin: 10px 5px;
+}
+
+.marcas {
+    padding: 30px 10px;
+    text-align: center;
+    background: #f5faff;
+}
+
+.logos img {
+    width: 90px;
+    margin: 10px;
+}
+
+.final {
+    background: #2e004f;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.mapa {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    color: #777;
+}
